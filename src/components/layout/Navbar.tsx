@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#top" className="flex items-center gap-2 group" aria-label="Maison du Massage Rouen — retour en haut">
-          <img src="/images/logo-maison-massage-rouen.png" alt="" className="w-9 h-9 rounded-full object-cover" />
+          <img src={`${import.meta.env.BASE_URL}images/logo-maison-massage-rouen.png`} alt="" className="w-9 h-9 rounded-full object-cover" />
           <div className="leading-tight">
             <span className="block font-serif font-semibold text-foreground text-sm leading-none">Maison du Massage</span>
             <span className="block text-[10px] tracking-widest text-muted-foreground uppercase">Rouen centre</span>

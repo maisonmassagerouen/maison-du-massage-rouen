@@ -1,6 +1,6 @@
 import { Clock, MapPin, Phone } from 'lucide-react'
 
-const HERO_IMG = '/images/maison-massage-rouen-devanture.png'
+const HERO_IMG = `${import.meta.env.BASE_URL}images/maison-massage-rouen-devanture.png`
 
 export default function HeroSection() {
   return (

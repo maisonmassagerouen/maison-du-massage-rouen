@@ -1,10 +1,10 @@
 const services = [
-  { img: '/images/massage-chinois-illustration.png', title: 'Massage chinois à Rouen', description: 'Des pressions précises et des gestes traditionnels pour dénouer les tensions, détendre le dos et retrouver une agréable sensation de légèreté.', tag: 'Tradition' },
-  { img: '/images/massage-thai-illustration.png', title: 'Massage thaï à Rouen', description: 'Un massage tonique inspiré des techniques thaïlandaises, associant pressions et étirements pour assouplir le corps et favoriser la détente.', tag: 'Évasion' },
-  { img: '/images/massage-indien-illustration.png', title: 'Massage indien à l’huile chaude', description: 'Un soin enveloppant à l’huile chaude qui invite au lâcher-prise et transforme votre séance en véritable parenthèse de bien-être.', tag: 'Huile chaude' },
-  { img: '/images/massage-pieds-illustration.png', title: 'Massage des pieds', description: 'Un massage ciblé des pieds et des jambes, idéal après une longue journée pour soulager la fatigue et procurer une relaxation profonde.', tag: 'Bien-être' },
-  { img: '/images/massage-couple-illustration.png', title: 'Massage en couple à Rouen', description: 'Partagez un moment de relaxation à deux dans notre salon du centre-ville de Rouen, dans une atmosphère calme et chaleureuse.', tag: 'Duo' },
-  { img: '/images/massage-royal-illustration.png', title: 'Massage royal', description: 'Notre expérience signature pour un moment de relaxation intense, avec une attention particulière portée à votre confort et à vos préférences.', tag: 'Signature' },
+  { img: `${import.meta.env.BASE_URL}images/massage-chinois-illustration.png`, title: 'Massage chinois à Rouen', description: 'Des pressions précises et des gestes traditionnels pour dénouer les tensions, détendre le dos et retrouver une agréable sensation de légèreté.', tag: 'Tradition' },
+  { img: `${import.meta.env.BASE_URL}images/massage-thai-illustration.png`, title: 'Massage thaï à Rouen', description: 'Un massage tonique inspiré des techniques thaïlandaises, associant pressions et étirements pour assouplir le corps et favoriser la détente.', tag: 'Évasion' },
+  { img: `${import.meta.env.BASE_URL}images/massage-indien-illustration.png`, title: 'Massage indien à l’huile chaude', description: 'Un soin enveloppant à l’huile chaude qui invite au lâcher-prise et transforme votre séance en véritable parenthèse de bien-être.', tag: 'Huile chaude' },
+  { img: `${import.meta.env.BASE_URL}images/massage-pieds-illustration.png`, title: 'Massage des pieds', description: 'Un massage ciblé des pieds et des jambes, idéal après une longue journée pour soulager la fatigue et procurer une relaxation profonde.', tag: 'Bien-être' },
+  { img: `${import.meta.env.BASE_URL}images/massage-couple-illustration.png`, title: 'Massage en couple à Rouen', description: 'Partagez un moment de relaxation à deux dans notre salon du centre-ville de Rouen, dans une atmosphère calme et chaleureuse.', tag: 'Duo' },
+  { img: `${import.meta.env.BASE_URL}images/massage-royal-illustration.png`, title: 'Massage royal', description: 'Notre expérience signature pour un moment de relaxation intense, avec une attention particulière portée à votre confort et à vos préférences.', tag: 'Signature' },
 ]
 
 export default function ServicesSection() {

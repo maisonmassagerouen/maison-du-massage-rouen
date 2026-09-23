@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/images/logo-maison-massage-rouen.png" alt="Logo Maison du Massage Rouen" className="w-12 h-12 rounded-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}images/logo-maison-massage-rouen.png`} alt="Logo Maison du Massage Rouen" className="w-12 h-12 rounded-full object-cover" />
               <div><span className="block font-serif font-semibold text-background">Maison du Massage</span><span className="block text-[10px] tracking-widest text-background/60 uppercase">Rouen</span></div>
             </div>
             <p className="text-background/80 text-sm leading-relaxed">Détente, bien-être et évasion au cœur de Rouen. Massages pour femmes, hommes et couples.</p>
