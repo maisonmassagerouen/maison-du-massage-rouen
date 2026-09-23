@@ -1,7 +1,7 @@
 import { Clock, ExternalLink, MapPin, Phone } from 'lucide-react'
 
 const GOOGLE_PAGE = 'https://share.google/pI81jubG8axJsHqCf'
-const GOOGLE_MAP_EMBED = 'https://www.google.com/maps?q=Maison%20du%20Massage%20ROUEN%2076000%2C%2050%20Rue%20du%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2076000%20Rouen&output=embed'
+const GOOGLE_MAP_EMBED = 'https://www.google.com/maps?cid=2779692138004623682&output=embed'
 
 export default function ContactSection() {
   return (
