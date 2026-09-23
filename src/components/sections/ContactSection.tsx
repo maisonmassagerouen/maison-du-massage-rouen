@@ -1,7 +1,7 @@
 import { Clock, ExternalLink, MapPin, Phone } from 'lucide-react'
 
 const GOOGLE_PAGE = 'https://share.google/pI81jubG8axJsHqCf'
-const GOOGLE_MAP_EMBED = 'https://www.google.com/maps?cid=2779692138004623682&output=embed'
+const GOOGLE_MAP_EMBED = 'https://www.google.com/maps?q=50%20Rue%20du%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2076000%20Rouen&output=embed'
 
 export default function ContactSection() {
   return (
@@ -26,8 +26,12 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-3 reveal min-h-[420px] rounded-2xl overflow-hidden border border-border shadow-md">
-            <iframe title="Maison du Massage Rouen — 50 rue du Général Leclerc" src={GOOGLE_MAP_EMBED} width="100%" height="100%" style={{ border: 0, minHeight: '420px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+          <div className="lg:col-span-3 reveal min-h-[420px] rounded-2xl overflow-hidden border border-border shadow-md bg-card flex flex-col">
+            <div className="px-5 py-4 border-b border-border">
+              <p className="font-serif font-semibold text-foreground">Maison du Massage ROUEN 76000</p>
+              <p className="text-sm text-muted-foreground">50 rue du Général Leclerc · 76000 Rouen</p>
+            </div>
+            <iframe title="Maison du Massage ROUEN 76000 — 50 rue du Général Leclerc" src={GOOGLE_MAP_EMBED} width="100%" height="100%" className="flex-1" style={{ border: 0, minHeight: '350px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
           </div>
         </div>
       </div>
